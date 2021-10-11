@@ -2,4 +2,7 @@ title: z's log
 description: z's log
 url: "https://rndz.org"
 
+disqus:
+  shortname: zlog-1
+
 theme: minima
