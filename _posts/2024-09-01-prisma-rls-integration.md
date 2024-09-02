@@ -27,7 +27,7 @@ tags:
 4. 点击 `Create policy` 按钮，打开创建对话框
    
    右边是规则示例，点击后会自动填充左边的表单，可以参考示例填写自己的规则
-   ![supabase create rls](supabase_create_rls.png)
+   ![supabase create rls](/assets/images/supabase_create_rls.png)
    
    1. Policy Name: 规则名称，用来区分不同规则
    
@@ -49,7 +49,7 @@ tags:
 
 打开 `Supabase` `Project Setting` -> `Database` 页面，页面上有当前项目的数据库连接字符串（下图）。复制后需要替换其中的 `[YOUR-PASSWORD]` 为创建项目时输入的数据库密码，并添加连接参数 `pgbouncer=true`，添加后类似这样 `postgresql://postgres.[projectid]:[your-password]@[host].pooler.supabase.com:6543/postgres?pgbouncer=true`。
 
-![supabase connection string.png](supabase_connection_string.png)
+![supabase connection string.png](/assets/images/supabase_connection_string.png)
 
 ### 安装依赖
 
